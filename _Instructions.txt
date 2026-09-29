@@ -1,0 +1,159 @@
+Change globalVars.py :
+Απο εδω αλλαζω ολα τα path που χρειαζονται εσωτερικα στο προγραμμα για να τρεξει και καποιες αλλες global μεταβλητες.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Run autoloaduncutgazeszoom_main.py :
+Η συναρτηση αυτη κανει την αναλυση ενος ή περισσοτερων subject που βρισκεται μεσα στο φακελο individual ή στο Documents/Optotech, 
+σε ενα ή περισσοτερα κειμενα αναλογα με το τι θελω να τρεξω καθε φορα.
+Οταν θα θελω να την τρεξω θα ορισω στο gui το id του subject αν θελω ενα subject και αν θελω περισσοτερα subject τοτε 
+θα ορισω στο πρωτο box απο ποιο subject θελω να ξεκινησω και θα πατησω το button του Use Range προκειμενου να μπορω να χρησιμοποιησω range και 
+μεσα στο δευτερο box θα ορισω μεχρι ποιο subject θελω να αναλυσω και τελος θα επιλεξω τα κειμενα στα οποια θελω να γινει η αναλυση.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Run runcrashcases.py :
+Η συναρτηση αυτη δεν παιρνει ορισματα απλα καθε φορα που την εκτελω θα τρεξει τα crashes των subject που εχω ηδη τρεξει στην autoloaduncutgazeszoom. 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Run plotvergence_main.py :
+Η συναρτηση αυτη παραγει ενα βιντεο που αφορα τις κινησεις των ματιων του εκαστοτε subject κσθως διαβαζε το κειμενο. 
+Οταν θα θελω να την τρεξω θα ορισω στο gui το id του subject (μπορει να εκτελεσει μονο ΕΝΑ subject τη φορα), το gaze start (απο ποιο gaze θελω το βιντεο να ξεκιναει σε καθε σελιδα), 
+το gaze end (σε ποιο gaze θελω το βιντεο να σταματαει σε καθε σελιδα), το κειμενο ή τα κειμενα και σε ποιες σελιδες τους θελω να παραχθει βιντεο.
+*H συναρτηση αυτη προυποθετει οτι εχω τρεξει πρωτα την autoloaduncutgazeszoom.py προκειμενου να εχω τη δομη σε φακελους, αρχεια κτλ, που χρειαζεται η συναρτηση αυτη για να τρεξει.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Run validation_main.py :
+Η συναρτηση αυτη αναλυει τη φωτογραφια του validation.png και παραγει ενα .txt αρχειο που περιεχει τις εστιασεις (ασπρες κουκιδες) ως σημεια με συντεταγμενες x,y που εχουν καταγραφει κατα τη διαδικασια του validation.
+Οταν θα θελω να την τρεξω θα ορισω στο gui το id του subject αν θελω ενα subject και αν θελω περισσοτερα subject τοτε θα ορισω στο πρωτο box απο ποιο subject θελω να ξεκινησω
+και θα πατησω το button του Use Range προκειμενου να μπορω να χρησιμοποιησω range και μεσα στο δευτερο box θα ορισω μεχρι ποιο subject θελω να αναλυσω και τελος θα επιλεξω τα κειμενα στα οποια θελω να γινει η αναλυση.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Run plotfixations_main.py :
+Η συναρτηση αυτη παραγει ενα βιντεο το οποιο περιεχει σειριακα τα fixation του εκάστοτε subject. 
+Οταν θα θελω να την τρεξω θα ορισω στο gui το id του subject αν θελω ενα subject και αν θελω περισσοτερα subject τοτε θα ορισω στο πρωτο box απο ποιο subject θελω να ξεκινησω
+και θα πατησω το button του Use Range προκειμενου να μπορω να χρησιμοποιησω range και μεσα στο δευτερο box θα ορισω μεχρι ποιο subject θελω να αναλυσω , θα ορισω επισης το κειμενο 
+ή τα κειμενα και σε ποιες σελιδες τους θελω να παραχθει βιντεο.
+*H συναρτηση αυτη προυποθετει οτι εχω τρεξει πρωτα την autoloaduncutgazeszoom.py προκειμενου να εχω τη δομη σε φακελους, αρχεια κτλ, που χρειαζεται η συναρτηση αυτη για να τρεξει.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Run ploteyemovements_main.py :
+Η συναρτηση αυτη παραγει ενα βιντεο το οποιο περιεχει σειριακα τα eye movements του εκάστοτε subject.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Run rois_audio_main.py :
+Η συναρτηση αυτη τρεχει τα rois μαζι με το ηχητικο για αποκωδικοποιηση. 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Run plottestattention_main.py:
+H sinarthsh afth dimiourgei to video tou testattention.
+Mpainw sto fakelo testattention.
+Prin to trexoume, epilegoume analoga me tin kinisi pou theloume na exei h mpala to periexomeno tou, px.
+fixationspy1_forw, fixationspy1_backw, ...ktl  h oti allo ftiaxoume
+kai to kanw antigrathi-epikollisi mesa sto arxeio "fixationspy1.txt". 
+Ean theloume xrwmata: plottestattention_fun--->> kanoume uncomment to part me ta "colorful choices"
+Ean theloume xrwmata me kena: plottestattention_fun--->> kanoume uncomment to part me ta "colorful choices with spaces"
+Ean theloume epiloges sximaton: paw sto shmeio plottestattention_fun--->> "Select geometrical shapes"
+An thelw na min exw keno anamesa sta gazes (opws by default), tote tha paiksw me ta xrwmata stin sti lista tous
+
+An thelw h mpilia na mhgainei pio grhgora h pio arga prepei na paiksoume me ta fsp:
+mikro fps=arga, megalo fps=grigora stin grammh
+plottestattention_fun--->> "writervideo = FFMpegWriter(fps=3) "
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Run total_shift_main.py:
+H sinartisi afth kanei shift gazes oso thelw egw kai se oles tis katefthinsis.
+Epilegw to tetragwno twn gazes pou thelw kai meta ta metakinw eite me keyboard keys
+eite paw sth panw aristerh gwnia pataw deksi click kai kratontas to apthmeno metakinw to tetragwno opou thelw.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Run split_experiments_in_2_parts.py:
+Spaw ena peirama se dio merh
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Για την διαχειριση των raw gazes:
+Oi synartiseis parakatw einai aytes poy apofasizoun poia gazes tha xrisimopoihsw:
+loaduncutdata
+loaduncutdata_hardcases (newest version)
+loaduncutdata_rois  (used only in rois_audio_main)
+
+Gia na vrw pou xrhsimopoieitai mia synartisi thn anoigw sto VSCODE kai kanw "Go to references"
+
+
+H loaduncutdata xrhsimopoeitai sta:
+>loaduncutgazeszoom_2023
+>loaduncutgazeszoom_multi_writing
+>loaduncutgazeszoom_multilines_rois_2023
+>autoloaduncutgazeszoom
+
+
+H loaduncutdata_hardcases xrhsimopoeitai sta:
+>loaduncutgazeszoom_2023_revision1
+>loaduncutgazeszoom_for_testattention
+
+
+H loaduncutdata_rois xrhsimopoeitai sth:
+>rois_audio_main   (gia na fortwsw sigekrimena pragmata kai oxi oli th pliroforia pou fortwnw stis ipolipes)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+This line below exists in loaduncutdata_hardcases. This was our first set of rules that takes only gazes that have x,y positive
+#( leftvalid[-1]==1 and rightvalid[-1]==1 and leftx[-1]>0 and lefty[-1]>0 and rightx[-1]>0 and righty[-1]>0 ):
+But, we came across some cases where one of the two eyes had negative values but nevertheless the recording was ok to use. 
+Thus we changed it to this, which takes account only the validity from the eye tracker and not the x,y coordinates of the eyes
+but won't be bothred by the "-1" values bucause the "-1" values goes hand-in-hand with 0 validity. 
+#( leftvalid[-1]==1 and rightvalid[-1]==1 ):
+
+Η βασικη συναρτηση για την διαχειριση των raw gazes ειναι η loaduncutdata_hardcases και η loaduncutdata αντιστοιχα.
+H gazeshandling mas bgazei ta .txt arxeia tou vergence kai tou gazespy, tha psaksoume na allaksoume to gazespy na 
+bgainei apo tis sinartiseis loaduncutdata_hardcases kai loaduncutdata antistoixa.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Για τη διαχειριση των επιλογων του GUI:
+Μεσα στο αρχειο gui.py ψαξε για το παρακατω. 
+
+if( checkedflag==1 ):
+            greekcheckbuttonsstate[-1].set(1)  # set default button's state as  -- Checked --
+        
+        if( checkedflag==2 and greektexts[i]=="visitloud" ):
+            greekcheckbuttonsstate[8].set(1)
+
+Το ορισμα "checkedflag" το δινει καθε φορα η συναρτηση που φορωνει το GUI πχ loaduncutgazeszoom_2023_revision1.py
+στη γραμμη 60
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Run plotcutgazes_window_main.py:
+H sinartisi afth ftiaxnei video me ola ta gazes, se morfh parathirou, ana selida
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Run plotfixation_window_main.py:
+H sinartisi afth ftiaxnei video me ola ta fixation, se morfh parathirou, ana selida
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Run eyeposition_main.py  &  eyeposition_optometrist_main.py:
+~eyeposition_optometrist_main -> H sinartisi afti ftiaxnei ena fakelo extra_plots me ola ta extra grafimata, dhladh vertical disparity, horizontal_disparity, 
+diagonal disparity, vertical eyeposition, horizontal eyeposition kai genika ginete mia analisi twn gazes ana selida
+~eyeposition_main ->H diafora ths eyeposition_optometrist_main.py me thn eyeposition_main.py einai oti h eyeposition_main.py kanei kai perissotera CLEAN sta dedomena kai 
+bgazei kai parapanw plot kai kapoia .txt me dedomena opws mean kai std_dev
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Run loaduncutgazeszoom_for_testattention.py:
+H sinarthsh afth kanei ola ta plot( cutgazes, eyemovements, fixations, rawgazes, linesteps) se oles tis selides tou keimenou ALLA sta gazes.txt, den exw kopsimata kai shift. 
+Kanw dhladh ola ta plot sta raw gazes.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

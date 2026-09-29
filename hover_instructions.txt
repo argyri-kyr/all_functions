@@ -1,0 +1,5 @@
+1.	Φτιαχνω τα globalVars  της Python
+2.	Παω στη συναρτηση texttoplot.py και στη γραμμη 15 οριζω κειμενο που θελω να τρεξω, π.χ  text='visit'
+3.	Παω στη συναρτηση findROIbounds και στη γραμμη 110 οριζω το φακελο του text,  π.χ  text = 'visit_1920_hover'
+4.	Τρεχω την συναρτηση texttoplot.py
+5.	Τρεχω τη hover.py 

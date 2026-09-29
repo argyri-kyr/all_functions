@@ -1,0 +1,5 @@
+
+
+for see the --references-- of something, in side bar (explorer) do:
+-> double click on it, in order to select it
+-> Shift+Alt+F12

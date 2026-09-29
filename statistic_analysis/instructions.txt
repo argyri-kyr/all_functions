@@ -1,0 +1,38 @@
+
+
+Requirements:
+1. statistic_analysis folder
+2. Copy these functions from main Folder:
+auto_adjust_column_width_xlsx
+export_to_pdf
+
+For Python:
+pip install reportlab
+
+R:\population\ANALYSIS_DB.xlsx  (intom the folder I want to execute the analysis)
+R:\individual\raven_score_norms.xlsx  (intom the folder I want to execute the analysis)
+
+
+To run a single student:
+1. Vale to fakelo tou subject mesa sto Folder: R:\individual (Profile_cards_db (\\MREYE2))
+2. Ean exeis diathesimi DOB ftiaxe ena .txt ths morfis  YYYY-MM-DD.txt mesa se ena opoiodhpote Gazesfolder h vale to sto GUI*
+3. Trekse to run_analysis_main.py
+
+* Ean grapseis DOB, kai valeis range of studentes, den tha doulepsei.
+
+
+
+Note: min exeis allous fakelous mesa sto fakelo tou individual giati to 'one-page-sheet-indiv_v7.0.py' tha krasarei
+Prepei na to ftiaksoume. Ean o fakelos einai ths morfs kati_kati_allo tote einai OK
+
+To run many students:
+1. Vale to fakelo twn subject mesa sto Folder: R:\individual (Profile_cards_db (\\MREYE2))
+2. Trekse to script 'create_birth_txt_from_db.py', gia na valeis DOB texts se polous mazi. Xreiazetai na ftaikseis ena excel file me ID kai DOBs.
+3. Trekse to run_analysis_main.py
+
+
+Gia na balw kainourgio plithismo sth bash mou
+0. Prepei oposdhpote prwta na exei ginei h analysi twn student (na einai etoimoi), 
+na exei dhladh mesa sto fakelo tous ta arxeia executive_sheet_1111.xlsx, individual_analysis_1111.xlsx
+1. Tous bazw ston fakelo tou plithismou i.e. R:\population
+2. Tous prosthetw sto excel ths bashs i.e. ANALYSIS_DB.xlsx
